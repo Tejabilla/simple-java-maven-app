@@ -6,7 +6,6 @@ labels:
    app: poc
 spec:
 containers:
-   - name: ar
+   - name: poc1
      image: tejabilla/poc:final
-     ports:
-       - containerPort: 8080
+     
