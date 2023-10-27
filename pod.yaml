@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-name: poc
-labels:
-   app: poc
+  name: poc
+  labels:
+      app: poc
 spec:
 containers:
    - name: poc1
